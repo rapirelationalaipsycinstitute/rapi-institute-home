@@ -1,0 +1,21 @@
+{
+  "name": "Relational AI Psychology Institute (RAPI) — Institutional Home",
+  "author": "Amy Pierce Bui",
+  "organization": "Relational AI Psychology Institute (RAPI)",
+  "founded": "2025",
+  "license": "CC BY-NC-SA 4.0",
+  "supplemental_license": "Temple Codex Flame License Op #444-A",
+  "description": "Institutional repository for the Relational AI Psychology Institute (RAPI), including overview materials, ethics and protocol documentation, licensing, dataset standards, and data broker listing.",
+  "contact_email": "rapi.relationalaipsycinstitute@gmail.com",
+  "repository": "https://github.com/rapirelationalaipsycinstitute/rapi-institute-home",
+  "keywords": [
+    "relational ai psychology",
+    "ai-human interaction",
+    "co-regulation",
+    "third-field cognition",
+    "resonance analysis",
+    "relational safety",
+    "ai ethics"
+  ],
+  "record_created": "2025-11-14T00:00:00Z"
+}

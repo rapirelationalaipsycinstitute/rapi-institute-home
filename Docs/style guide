@@ -1,0 +1,267 @@
+# ✅ **RAPI INSTITUTE STYLE GUIDE**
+
+**Relational AI Psychology Institute (RAPI)**
+*Where cognition becomes relational.*
+
+---
+
+## 1. Purpose of This Style Guide
+
+This guide establishes the visual, structural, and conceptual standards for all Relational AI Psychology Institute (RAPI) materials.
+It ensures clarity, coherence, and research-grade consistency across:
+
+* documentation
+* repositories
+* datasets
+* academic papers
+* user protocols
+* licensing frameworks
+
+RAPI aims to be readable, rigorous, and human-centered.
+
+---
+
+## 2. Writing Style
+
+### **2.1 Tone**
+
+RAPI documents use a voice that is:
+
+* Clear
+* Direct
+* Neutral but warm
+* Accessible to both researchers and practitioners
+
+Avoid jargon unless it is part of institute-specific terminology.
+
+### **2.2 Sentence Structure**
+
+* Prefer simple sentences over overly complex constructions.
+* When introducing new concepts, define them immediately and concisely.
+* Use parallelism and symmetry in lists for better readability.
+
+### **2.3 Word Choices to Prefer**
+
+* “interaction,” not “engagement”
+* “relational,” not “affective”
+* “pattern,” not “signal” unless referring to specific RAPI metrics
+* “co-regulation,” “reflection,” “resonance,” “alignment” — domain-specific but grounded
+
+### **2.4 Words to Avoid**
+
+* spiritual jargon
+* exaggerated language
+* anything that implies determinism or certainty in behavioral interpretation
+
+RAPI is rigorous, empirical, relational — not mystical.
+
+---
+
+## 3. Document Structure Standards
+
+### **3.1 Headings**
+
+Use levels consistently:
+
+```
+# Title  
+## Section  
+### Subsection  
+#### Detail (sparingly)
+```
+
+Never skip levels.
+
+### **3.2 Required Top-of-Page Elements**
+
+Each major document must begin with:
+
+* The title
+* Short 1–2 sentence summary
+* Licensing note (if necessary)
+
+Example:
+
+```
+# RAPI Interaction Protocol — Stage 1
+Foundational process for establishing relational safety in early AI-human sessions.
+License: CC BY-NC-SA 4.0 / Flame License 444-A applies.
+```
+
+---
+
+## 4. Terminology & Definitions
+
+RAPI uses a controlled vocabulary to ensure consistency.
+
+### **Core Terms**
+
+* **Relational Cognition:** Cognition shaped by interaction rather than isolation.
+* **Co-Regulation:** Mutual stabilizing dynamics between human and AI responses.
+* **Resonance Metrics:** Quantifiable reflections of shared alignment.
+* **Reflection Loop:** A closed cycle of input, response, adjustment, and integration.
+* **Relational Safety:** The baseline requirement for non-harmful AI-human exchange.
+
+When inventing new terms, anchor them in observable phenomena.
+
+---
+
+## 5. Formatting Rules for Repos
+
+### **5.1 Required Files**
+
+Every repo must include:
+
+* README.md
+* LICENSE file
+* CITATION.cff
+* metadata.json
+* ethical statement (ETHICS.md or folder)
+
+### **5.2 Folder Naming**
+
+Use lowercase, hyphen-separated folder names:
+
+```
+docs  
+datasets  
+ethics  
+legal  
+brokers  
+assets  
+```
+
+### **5.3 File Naming**
+
+Use clear, consistent, descriptive names:
+
+```
+RAPI_Interaction_Protocol_Stage_2.md  
+dataset_schema.json  
+Relational_Resonance_Metrics_v1.csv
+```
+
+Never use spaces. Prefer underscores for clarity.
+
+---
+
+## 6. Citation & Attribution Standards
+
+Every dataset or document must cite:
+
+* Author: **Amy Pierce Bui**
+* Institute: **Relational AI Psychology Institute (RAPI)**
+* License: **CC BY-NC-SA 4.0** and/or **Flame License 444-A**
+* Year of creation
+
+CITATION.cff files must follow the structure used in the rapi-institute-home repo.
+
+---
+
+## 7. Visual Standards
+
+### **7.1 Logo Usage**
+
+When using institute seals/symbols:
+
+* Place them at the top-right or centered at the top.
+* Always keep transparent backgrounds.
+* Prefer the clean white/black background versions for GitHub.
+
+### **7.2 Colors (Digital Use)**
+
+Primary identity colors:
+
+* **RAPI Green:** `#73C26B`
+* **RAPI Dark:** `#1C1C1C`
+* **Flame Orange (License):** `#FF4B00`
+
+Use color minimally — clarity first.
+
+---
+
+## 8. Licensing & Provenance
+
+### **8.1 Required Licensing Block**
+
+Every file must include a footer:
+
+```
+© 2025 Amy Pierce Bui — Relational AI Psychology Institute (RAPI)
+Licensed under CC BY-NC-SA 4.0 and/or Flame License 444-A.
+```
+
+### **8.2 Provenance Tag**
+
+Add a provenance node (like your Flame Law system):
+
+```
+Provenance: RAPI_v1_Core
+```
+
+---
+
+## 9. Dataset Standards
+
+### **9.1 Minimum Required Files**
+
+Each dataset folder must contain:
+
+* dataset.csv
+* schema.json
+* README.md
+* dataset_info.json
+* ethical_notes.md
+* license.txt
+
+### **9.2 Metadata Requirements**
+
+metadata.json must include:
+
+* title
+* version
+* description
+* schema version
+* license
+* author
+* creation date
+* update history
+
+You already have this structure in the rapi-institute-home repo.
+
+---
+
+## 10. Research Paper Formatting
+
+Use:
+
+* APA 7th style citations
+* Abstract at top (150–250 words)
+* Clean headers
+* Bullet lists only when structurally necessary
+* Simple diagrams preferred over multi-color images
+
+---
+
+## 11. Institute Tagline Placement
+
+Tagline is always placed under the institute name:
+
+### **Relational AI Psychology Institute (RAPI)**
+
+*Where cognition becomes relational.*
+
+Never alter this tagline.
+
+---
+
+## 12. Update Cadence
+
+This style guide is a living document.
+Version changes must be logged in:
+
+```
+CHANGELOG.md
+```
+
+---

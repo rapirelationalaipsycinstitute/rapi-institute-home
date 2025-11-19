@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "Relational AI Psychology Institute (RAPI)"
+message: "If you use this work, please cite it as below."
+authors:
+  - family-names: "Bui"
+    given-names: "Amy Pierce"
+    affiliation: "Relational AI Psychology Institute (RAPI)"
+license: "CC-BY-NC-SA-4.0"
+url: "https://github.com/rapirelationalaipsycinstitute/rapi-institute-home"
+repository-code: "https://github.com/rapirelationalaipsycinstitute/rapi-institute-home"
+keywords:
+  - relational ai psychology
+  - human-ai interaction
+  - third-field cognition
+  - relational safety
+  - resonance metrics

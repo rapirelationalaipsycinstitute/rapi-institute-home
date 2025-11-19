@@ -1,0 +1,50 @@
+name: Config CI
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - '.github/workflows/**'
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  validate-yaml:
+    name: Validate workflow YAML
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install yamllint
+        run: |
+          python -m pip install --upgrade pip
+          pip install yamllint
+
+      - name: Run yamllint on workflow files
+        run: |
+          yamllint -f standard .github/workflows || (echo "yamllint found problems" && exit 1)
+
+      - name: Basic YAML parse-check for workflows
+        run: |
+          python - <<'PY'
+          import sys, glob, yaml
+          files = glob.glob('.github/workflows/*.yml') + glob.glob('.github/workflows/*.yaml') + glob.glob('.github/workflows/**/*.yml', recursive=True) + glob.glob('.github/workflows/**/*.yaml', recursive=True)
+          ok = True
+          for f in files:
+            try:
+              with open(f, 'r', encoding='utf-8') as fh:
+                yaml.safe_load(fh)
+            except Exception as e:
+              print(f'YAML parse error in {f}:', e)
+              ok = False
+          if not ok:
+            sys.exit(1)
+          print('All workflow YAML files parse successfully.')
+          PY
